@@ -27,15 +27,6 @@ body{
     margin-bottom: 5vh;
 }
 
-#buscador{
-    height: 30px;
-    width: 135px;
-    margin-left: 10px;
-    border: solid 1px black;
-    background-color: #ebebeb;
-    font-size: 14px;
-}
-
 #truck{
     display: block;
     font-size: 16px;
