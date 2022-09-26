@@ -1,0 +1,432 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header{
+    background-color: #EAC926;
+    padding: 20px;
+    width: 100%;
+}
+
+body{
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo{
+    text-align: center;
+    width: 125px;
+}
+
+#fotoProd{
+    width: 92%;
+    display: block;
+    margin-bottom: 5vh;
+}
+
+#buscador{
+    height: 30px;
+    width: 135px;
+    margin-left: 10px;
+    border: solid 1px black;
+    background-color: #ebebeb;
+    font-size: 14px;
+}
+
+#truck{
+    display: block;
+    font-size: 16px;
+    color: #39b54a;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+
+}
+
+body h2{
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    color: #666;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    width: 100%;
+    
+}
+
+#list1{
+    margin-top: 10px;
+    margin-bottom: 16px;
+    margin-left: 16px; 
+    font-size: 16px;
+}
+
+
+main section article{
+    background-color: #fff;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.articuloProd{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-top: 1px solid #ebebeb;
+    padding: 25px;
+    margin: 15px;
+    text-align: left;
+}
+
+.articuloProd p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ultVista {
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ofertas {
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerTxt{
+    margin-left: 2.5vw;
+    font-size: 12px;
+    margin-bottom: 33px;
+    text-align: center;
+    margin-right: 2.5vw;
+    flex-direction: column;
+}
+
+.footerBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4{margin-left: 2.5vw;text-align: center;margin-right: 2.5vw;font-size: 10px;}
+h3{font-size: 16px;}
+
+.precio {
+    font-size: 18px;
+    flex: 1;
+}
+
+.descuento {
+    font-size: 16px;
+    flex: 2.2;
+
+}
+
+.titProd {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #666;
+    margin-top: 20px;
+    display: none;
+}
+
+.fa-solid{vertical-align: bottom;}
+
+.burger-menu {
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #03264C;
+    color: white;
+    border-radius: 20%;
+}
+    
+#cc{text-align: center;margin-bottom: 10px;}
+#sec{text-align: center;margin-bottom: 10px;}
+#gift{text-align: center;margin-bottom: 10px;}
+
+
+main {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    background-color: #ebebeb;
+    
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    color: #39b54a;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+#banner{
+    width: 100%;
+    display: block;
+    height: 50%;
+}
+
+
+footer p{
+    font-size: 12px;
+}
+
+.siteNav, .loginNav {
+    display: none;
+}
+
+main section article i {    
+    position: absolute;
+    margin-top: -40px;
+    right: 20%;
+}   
+
+.priceContainer, .topHeader {
+    display: flex;
+    align-items: center;
+}
+
+.topHeader {
+    justify-content: center;
+}
+
+.siteNav li, .loginNav li {
+    list-style: none;
+}
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+}
+
+.loginContainer{
+    height: 40vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: #dbdbdb;
+    border-radius: 10px;
+}
+.profileLogin input{
+    width: 40vw;
+    margin: 0 auto;
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.enviarLogin{
+    margin-top: 20px;
+}
+
+.formContainer{
+    width: 90vw;
+    max-width: 900px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: #dbdbdb;
+    border-radius: 10px;
+}
+
+.formContainer input{
+    width: 75vw;
+    max-width: 750px;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.vendedorOcomprador label input{
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.interests label input{
+    width: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.botonesRegister{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.navContainer a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.5s;
+    transition-property: color;
+}
+
+.navContainer a:hover{
+    color:#03264C;
+    transition:color, 0.5s;
+    text-decoration: underline;
+}
+
+/* Tablet*/
+@media (max-width: 768px ) and (min-width: 426px){
+    .siteNav, .loginNav {
+        display: block;
+    }
+    .titProd {
+        display: block;
+    }
+    main section article{
+        width: 48%;
+    }
+
+    main section article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    main section article i {    
+        position: initial;
+        margin-top: 0;
+        right: 20%;
+    }
+    
+    #logo {
+        width: 225px;
+    }
+
+    .navContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navContainer .siteNav, .navContainer .loginNav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #list1 {
+        margin-left: 0;
+    }
+
+    .siteNav li, .loginNav li {
+        margin-right: 12px;
+    }
+
+    .footer {
+        flex-direction: row;
+    }
+}
+
+/* Desktop */
+@media (min-width: 769px){
+    .siteNav, .loginNav {
+        display: block;
+    }
+
+    .titProd {
+        display: block;
+        visibility: hidden;
+    }
+
+    main section article:hover .titProd {
+        visibility: visible;
+    }
+    main section article {
+        width: 23%;
+    }
+
+    main section article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section article:hover .articuloProd .fa-truck {
+        transform: rotate(-90deg);
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    main section article i {    
+        position: initial;
+        margin-top: 0;
+        right: 20%;
+    } 
+
+    .headerContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #logo {
+        width: 325px;
+    }
+
+    .searchContainer {
+        width: 370px;
+    }
+
+    .searchContainer input{
+        width: 325px;
+    }
+
+    .navContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navContainer .siteNav, .navContainer .loginNav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #list1 {
+        margin-left: 0;
+    }
+
+    .siteNav li, .loginNav li {
+        margin-right: 18px;
+    }
+
+    .footer {
+        flex-direction: row;
+    }
+}
