@@ -17,7 +17,6 @@ body{
 }
 
 #logo{
-    text-align: center;
     width: 125px;
 }
 
@@ -45,8 +44,7 @@ body h2{
     padding: 10px;
     text-align: center;
     color: #666;
-    margin-top: 25px;
-    margin-bottom: 5px;
+    margin-top: 5px;
     width: 100%;
     
 }
@@ -185,7 +183,6 @@ main section article i{
 #banner{
     width: 100%;
     display: block;
-    height: 50%;
 }
 
 
@@ -219,6 +216,10 @@ main section article i {
 .searchContainer{
     display: flex;
     align-items: center;
+}
+
+header form input{
+    width: 133px;
 }
 
 .loginContainer{
@@ -341,6 +342,9 @@ main section article i {
 
     .footer {
         flex-direction: row;
+    }
+    header form input{
+        width: 200px;
     }
 }
 
